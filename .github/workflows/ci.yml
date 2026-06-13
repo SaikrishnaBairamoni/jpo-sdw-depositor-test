@@ -57,7 +57,7 @@ jobs:
           mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.organization=usdot-jpo-ode \
-            -Dsonar.projectKey=usdot-jpo-ode_jpo-sdw-deposito-test \
+            -Dsonar.projectKey=usdot-jpo-ode_jpo-sdw-depositor-test \
             -Dsonar.projectName=jpo-sdw-depositor-test \
             -Dsonar.sources=src/main/java \
             -Dsonar.tests=src/test/java \
