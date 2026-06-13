@@ -62,5 +62,6 @@ jobs:
             -Dsonar.sources=src/main/java \
             -Dsonar.tests=src/test/java \
             -Dsonar.java.binaries=target/classes \
+            -Dsonar.java.libraries=$HOME/.m2/repository/**/*.jar \
             -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml \
             -Dsonar.token=$SONAR_TOKEN
